@@ -1,0 +1,101 @@
+.App {
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.text-input {
+  width: 60%;
+  height: 100px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  border-radius: 8px;
+  background-color: white;
+
+  /* Make the font larger */
+  font-size: 1.2em; /* or any size you prefer */
+
+  /* Add padding inside the text field */
+  padding: 10px; /* Adjust as needed */
+}
+
+
+.buttons {
+  margin-bottom: 20px;
+}
+
+button {
+  margin: 0 10px;
+  border: 1px solid black;
+  border-radius: 8px;
+  background-color: white;
+  padding: 10px 20px;
+}
+
+li {
+  list-style: none;
+}
+
+.tagged-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers the content horizontally */
+  margin: 0 auto; /* Additionally centers the container itself */
+}
+
+.tagged-text span {
+  padding: 2px;
+  border-radius: 4px;
+  margin: 2px;
+}
+
+.tagged-text .tagged-word {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.tagged-text .tagged-word span.tag-description {
+  margin-left: 10px;
+}
+
+.tagged-text .sentence {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers each sentence horizontally */
+}
+
+.tagged-text .tagged-word {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+
+.categories-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 60%;
+  margin: 20px auto;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.category-item {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.color-circle {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 5px;
+}
+
